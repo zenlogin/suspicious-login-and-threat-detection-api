@@ -24,6 +24,7 @@ Below are some advanced features available for our users:
 # Integration
 The integration process for Zenlogin is straightforward. Below you'l find some examples:
 
+## curl
 ``` curl
 curl https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks \
   --header "X_API_SECRET_KEY: your_secret_key" \
@@ -33,6 +34,7 @@ curl https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks \
   --data ip_address="2607:f2c0:e34c:36b0:ac91:fd58:c9b7:7f03"
 ```
 
+## PHP
 ``` php
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks');
@@ -51,6 +53,7 @@ $response = json_decode($response, true);
 curl_close($ch);
 ```
 
+## Node
 ``` Node
 const axios = require('axios');
 const endpoint = 'https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks',
@@ -69,6 +72,7 @@ axios.post(endpoint, postData, options).then(function(response) {
 });
 ```
 
+## Python
 ``` Python
 import requests
 url = 'https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks'
@@ -83,6 +87,7 @@ response = requests.post(url, data=postData, headers=headers)
 print response.content
 ```
 
+## Ruby
 ``` Ruby
 require 'uri'
 require 'net/http'
