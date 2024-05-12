@@ -16,6 +16,7 @@ Below are some advanced features available for our users:
 - Localization
 - Custom Rules (e.g. "Always notify users logging in with an @zenlogin.co account")
 - Map styling
+- Link and color customization
 - Webhooks
 - DNS CNAMEs
 - DPAs
