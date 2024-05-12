@@ -6,7 +6,6 @@ This email is a rich HTML email, including a Google Map showing the approximate 
 - The login operating system
 - The date &amp; time (relative to that location's timezone)
 
-
 # Auth0 Integration
 If you're using [Auth0](https://auth0.com/) for your authentication, you can now add Zenlogin without touching any code. Our integration can be accessed here:
 [https://marketplace.auth0.com/integrations/zenlogin](https://marketplace.auth0.com/integrations/zenlogin)
@@ -20,6 +19,10 @@ Below are some advanced features available for our users:
 - Webhooks
 - DNS CNAMEs
 - DPAs
+
+# Email Preview
+Below you can see a sample email that Zenlogin sends:
+![image](https://github.com/zenlogin/suspicious-login-and-threat-detection-api/assets/612938/17f8443a-ad0d-45d2-9628-83076baad5c6)
 
 # Integration
 The integration process for Zenlogin is straightforward. Below you'l find some examples:
