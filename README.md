@@ -25,7 +25,7 @@ Below are some advanced features available for our users:
 The integration process for Zenlogin is straightforward. Below you'l find some examples:
 
 ## curl
-``` curl
+``` bash
 curl https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks \
   --header "X_API_SECRET_KEY: your_secret_key" \
   --data identity_key="usr12345" \
