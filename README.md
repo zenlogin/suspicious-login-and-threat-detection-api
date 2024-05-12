@@ -22,7 +22,10 @@ Below are some advanced features available for our users:
 
 # Email Preview
 Below you can see a sample email that Zenlogin sends:
-![image](https://github.com/zenlogin/suspicious-login-and-threat-detection-api/assets/612938/17f8443a-ad0d-45d2-9628-83076baad5c6)
+
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+
+![image](https://github.com/zenlogin/suspicious-login-and-threat-detection-api/assets/612938/17f8443a-ad0d-45d2-9628-83076baad5c6 | width=100)
 
 # Integration
 The integration process for Zenlogin is straightforward. Below you'l find some examples:
