@@ -6,11 +6,11 @@ This email is a rich HTML email, including a Google Map showing the approximate 
 - The login operating system
 - The date &amp; time (relative to that location's timezone)
 
-# Auth0 Integration
+## Auth0 Integration
 If you're using [Auth0](https://auth0.com/) for your authentication, you can now add Zenlogin without touching any code. Our integration can be accessed here:
 [https://marketplace.auth0.com/integrations/zenlogin](https://marketplace.auth0.com/integrations/zenlogin)
 
-# Advanced Features
+## Advanced Features
 Below are some advanced features available for our users:
 - Detailed logs
 - Localization
@@ -21,15 +21,14 @@ Below are some advanced features available for our users:
 - DNS CNAMEs
 - DPAs
 
-# Email Preview
-Below you can see a sample email that Zenlogin sends:
-
+## Email Preview
+Below you can see a sample email that Zenlogin sends:  
 <img src="https://github.com/zenlogin/suspicious-login-and-threat-detection-api/assets/612938/17f8443a-ad0d-45d2-9628-83076baad5c6" width="400" />
 
-# Integration
+## Integration
 The integration process for Zenlogin is straightforward. Below you'l find some examples:
 
-## curl
+### curl
 ``` bash
 curl https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks \
   --header "X_API_SECRET_KEY: your_secret_key" \
@@ -39,7 +38,7 @@ curl https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks \
   --data ip_address="2607:f2c0:e34c:36b0:ac91:fd58:c9b7:7f03"
 ```
 
-## PHP
+### PHP
 ``` php
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks');
@@ -58,7 +57,7 @@ $response = json_decode($response, true);
 curl_close($ch);
 ```
 
-## Node
+### Node
 ``` Node
 const axios = require('axios');
 const endpoint = 'https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks',
@@ -77,7 +76,7 @@ axios.post(endpoint, postData, options).then(function(response) {
 });
 ```
 
-## Python
+### Python
 ``` Python
 import requests
 url = 'https://api.zenlogin.co/v1/applications/appl0123456789/logins/checks'
@@ -92,7 +91,7 @@ response = requests.post(url, data=postData, headers=headers)
 print response.content
 ```
 
-## Ruby
+### Ruby
 ``` Ruby
 require 'uri'
 require 'net/http'
